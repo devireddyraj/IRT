@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://68d80922cf952c8271a65f21--beamish-dusk-6440e1.netlify.app/", // change later to your frontend URL
+    origin: "https://irt-notification.netlify.app/", // change later to your frontend URL
     methods: ["GET", "POST"]
   }
 });
